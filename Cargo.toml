@@ -1,0 +1,12 @@
+[package]
+name = "nodnonce"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bincode = "2.0.1"
+bs58 = "0.5.1"
+ed25519-dalek = { git = "https://github.com/Arrowana/curve25519-dalek.git", rev = "5c05b56c06fdaf0c2f4c34ea459ee5cac3b1750f" }
+rand = "0.7.0"
+solana-sdk = "2.2.1"
+spl-memo = "6.0.0"
